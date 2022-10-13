@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luck Game</title>
+</head>
+<body>
+    <h1 class="title">LET'S CHECK OUR LUCK</h1>
+    <h2 class="winning-score">Winning Score is: <span class="winScore"></span> </h2>
+    <h3 class="winnerText">WINNER IS: <span class="winner"></span></h3>
+    <div class="player">
+        <h4>
+        Player 1---><span class="pl1Score">0</span> <br>
+        Player 2---><span class="pl2Score">0</span> <br>
+        Player 3---><span class="pl3Score">0</span>
+        </h4>
+    </div>
+    <form action="">
+        <h5 class="inText">SET THE WINNING VALUE</h5>
+    <input type="text" name="num" id="inputnum">
+    <input type="submit" value="SUBMIT" id="submit">
+    
+    </form>
+    <!-- <div class="inputRange">
+        <h3 class="rangeText">Enter your range to generate random number:</h3>
+        <span class="min">Min Value:</span> <br>
+        <input type="number" name="num" id="minNum"> <input type="submit" value="Submit" id="minIn"> <br>
+        <span class="max">Max Value:</span> <br>
+        <input type="number" name="num" id="maxNum"> <input type="submit" value="Submit" id="maxIn">
+    </div> -->
+    <div class="plrInfo">
+        <button type="text" class="p1Btn">Player 1</button>
+        <button type="text" class="p2Btn">Player 2</button>
+        <button type="text" class="p3Btn">Player 3</button>
+    </div>
+    <br>
+    <div class="reset">Reset the Game</div>
+    <input type="reset" value="RESET" id="reset">
+    <script src="index.js"></script>
+</body>
+</html>
